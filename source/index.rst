@@ -9,7 +9,10 @@ Welcome to Demeter Tutorial in Japanese's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
+   
+   preface
+   athena
+   artemis
 
 
 Indices and tables
