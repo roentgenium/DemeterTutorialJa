@@ -381,6 +381,53 @@ EXAFS 振動の抽出
 
 ここまでは，「プレエッジ」と「ポストエッジ」を引くことにより，スペクトルの前処理を行った．次に EXAFS 振動を抽出するために「バックグラウンド」=「原子のみのX線吸収スペクトルの近似曲線」=「スプライン曲線」を引く．
 
+「スプライン曲線」は、`Autobk <http://cars.uchicago.edu/~newville/autobk/ProgramDoc/>`__ というライブラリ（プログラム）を利用して求められる．詳細は Autobk のアルゴリズムを理解する必要があるが，通常は Spline range を適当な範囲に設定するのみでよい．その他に Rbkg，Spline clamp，k-weight などのパラメータはごく簡単に説明する．
+
+Spline range とは
+-----------------
+
+Spline range in k
+    k (波数) を基準に指定するスプライン関数を引く際に利用するデータ点の範囲
+Spline range in E
+    E (エネルギー) を基準に指定するスプライン関数を引く際に利用するデータ点の範囲
+
+Spline range in k および Spline range in E は互いに連動しているので，ここでは，エネルギーを基準としてデータ範囲を指定する Spline range in E のみを説明する．k の意味については，後述している．
+
+これまでプロットウィンドウ上で赤い線で background として表示されていた線がスプライン関数である．例えば，配布ファイルの Cufoil.dat を読み込んだ場合は，デフォルトで 0 からおよそ 1100.4 eV に設定される．
+
+試料によっては，吸収端から 1000 eV 以上高エネルギー側の領域において，EXAFS 振動に由来するスペクトルの変動に対して，ノイズによるスペクトルの変動が同程度あるいはより大きくなってしまうことがある．その場合，ノイズの変動に引きずられて，「原子のみのX線吸収スペクトルの近似曲線」と期待される曲線とは全く違う曲線になってしまうことがある．その場合，ノイズの影響が強い領域を無視するために，Spline range を狭めることがある．
+
+配布データにおいて，Spline range を大きく変更する必要があるスペクトルはないが，以下に Spline range を実際に変更して，その影響を示す．
+
+操作
+~~~~
+
+1. **Background removal and normalization parameters** の欄の Spline range を 0 to 700 に変更する
+2. エネルギーに対して XAFS スペクトルをプロットするためにオレンジ色の k のボタンをクリックする
+
+.. figure:: _static/athena/images/Athena_splinerange500.png
+   :alt: Spline range 500 eV までにした場合の EXAFS スペクトル
+
+   Spline range 500 eV までにした場合の EXAFS スペクトル
+
+このように，k (波数) で 11.5 程度の範囲までしか「原子のみのX線吸収スペクトルの近似曲線」が計算されないため，EXAFS スペクトルもこの範囲で抽出される．この後の解析のために，Spline range を 0 - 1100 eV に戻しておく．
+
+操作
+~~~~
+
+1. **Background removal and normalization parameters** の欄の Spline range を 0 to 1100 に変更する
+2. エネルギーに対して XAFS スペクトルをプロットするためにオレンジ色の k のボタンをクリックする
+
+.. figure:: _static/athena/images/Athena_splinerange1100.png
+   :alt: Spline range 1100 eV までにした場合の EXAFS スペクトル
+
+   Spline range 1100 eV までにした場合の EXAFS スペクトル
+
+Spline range にどのような値を取るべきか
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Spline range はデフォルトで設定される値で問題ないことがほとんどである．但し，例えば，蛍光法で測定した XAFS スペクトルにおいて，高エネルギー側の領域でノイズの影響がひどく，デフォルトで設定される Spline range が適切でないことがある．その場合は，Spline range の高エネルギー側の値を，例えば 100 eV ずつ小さくして，得られる EXAFS 振動が極端にゆがんでいないことを確認すべきである．
+
 Rbkg とは
 ---------
 
@@ -467,7 +514,7 @@ Rbkg の値を変えることで，「フーリエ変換後の EXAFS スペク�
 ~~~~
 
 1. エネルギーに対して XAFS スペクトルをプロットするためにオレンジ色の E のボタンをクリックする
-2. エネルギーに対する XAFS を表示している状態で，メインウィンドウ右下の pre-edge, post-edgd, Normalized のチェックボックスのチェックを外す
+2. エネルギーに対する XAFS を表示している状態で，メインウィンドウ右下の pre-edge, post-edge, Normalized のチェックボックスのチェックを外す
 
 .. figure:: _static/athena/images/Athena_Rbkg10.png
    :alt: Rbkg が既定値である 1 の場合
