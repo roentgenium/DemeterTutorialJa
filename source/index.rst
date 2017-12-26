@@ -13,6 +13,8 @@ Welcome to Demeter Tutorial in Japanese's documentation!
    preface
    athena
    artemis
+   tips
+   todo
 
 
 Indices and tables
