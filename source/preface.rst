@@ -4,7 +4,7 @@
 この文章は何でないか
 --------------------
 
-1. この文章は X 線吸収微細構造 (XAFS) 原理，理論等について説明するものではありません．
+1. この文章は X 線吸収微細構造 (XAFS) の原理，理論等について説明するものではありません．
 2. この文章は，XAFS の真のパワーユーザによって書かれたものではありません．間違っている可能性を常に考慮し，少しでも疑問があれば，`Athena documentation <https://bruceravel.github.io/demeter/documents/Athena/index.html>`__  や `Artemis documentation <https://bruceravel.github.io/demeter/documents/Artemis/index.html>`__ といった本家のマニュアルや `Ifeffit Mailing List <http://cars9.uchicago.edu/mailman/listinfo/ifeffit/>`_ で真のパワーユーザのコメントを参照してください．`Ifeffit Mail Archive <http://www.mail-archive.com/ifeffit@millenia.cars.aps.anl.gov/>`__ ではメールアーカイブを検索することができます．場合によっては，著者による `Athena documentation 日本語訳 <http://www.moleng.kyoto-u.ac.jp/~moleng_04/asakura/ja/others/aug/index.html>`__ も役に立つかもしれません．
 3. 繰り返しますが，この文章は，XAFS の真のパワーユーザによって書かれたものではありません．これから紹介する解析手順が，周りの XAFS 経験者あるいはあなたの指導教員とはいくらか異なっている可能性は大いにあります．著者の知る限り，XAFS 解析において絶対的といえる解析手順はなく，また，往々にして恣意性が入ることは否定できません．この文章の文責は著者にありますが，内容を保証するものではありません．
 
@@ -34,7 +34,7 @@ Ifeffit という言葉で示される1つ目のものは "Interactive feffit" �
 
 .. note::
 
-   本 Web ページのライセンスは検討中です．もちろん無保証です．常識的な範囲でご自由にお使いください．また，本 Web ページを利用する際はできる限り，原典の URL http://www.moleng.kyoto-u.ac.jp/~moleng_04/asakura/ja/others/dtj/ (2017-12-26 現在) あるいはリンクを含めてください．
+   本 Web ページのライセンスは検討中です．もちろん無保証です．常識的な範囲でご自由にお使いください．また，本 Web ページを利用する際はできる限り，原典の URL http://www.moleng.kyoto-u.ac.jp/~moleng_04/asakura/ja/others/dtj/ (2018-09-30 現在) あるいはリンクを含めてください．
 
 基本的には，以下の「操作」に書かれた手順でソフトを操作して下さい．
 

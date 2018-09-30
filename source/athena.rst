@@ -4,13 +4,17 @@
 Athena による XAFS データ処理（入門編）
 =======================================
 
+.. note::
+
+   :doc:`preface` のページ最下部からチュートリアルで使うデータをダウンロードすることができます．
+
 Demeter パッケージのインストール
 --------------------------------
 
 操作
 ~~~~
 
-1. Web ブラウザで `Demeter: XAS Data Processing and Analysis <http://bruceravel.github.io/demeter/>`__ を開き，64 ビット版 Windows を使っている場合は，Demeter_0.9.25_with_Strawberry_Perl_(64).exe を，32 ビット版 Windows を使っている場合は Demeter_0.9.25_with_Strawberry_Perl_(32).exe をダウンロードする．（Demeter は現在も活発に開発が進められており，頻繁にアップデートが行われている．基本的には常に最新版を使うこと．）
+1. Web ブラウザで `Demeter: XAS Data Processing and Analysis <http://bruceravel.github.io/demeter/>`__ を開き，Windows download から最新版の Demeter をダウンロードする．（`Mac 版 <http://bruceravel.github.io/demeter/#mac>`_ もある．）
 2. ダウンロードしたインストーラを実行して Demeter をインストールする．
 
 Athena の起動

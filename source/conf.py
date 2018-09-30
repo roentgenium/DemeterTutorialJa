@@ -49,7 +49,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Demeter Tutorial in Japanese'
-copyright = '2017, ASAKURA, Hiroyuki'
+copyright = '2018, ASAKURA, Hiroyuki'
 author = 'ASAKURA, Hiroyuki'
 
 # The version info for the project you're documenting, acts as replacement for
