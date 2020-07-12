@@ -8,7 +8,7 @@
 2. この文章は，XAFS の真のパワーユーザによって書かれたものではありません．間違っている可能性を常に考慮し，少しでも疑問があれば，`Athena documentation <https://bruceravel.github.io/demeter/documents/Athena/index.html>`__  や `Artemis documentation <https://bruceravel.github.io/demeter/documents/Artemis/index.html>`__ といった本家のマニュアルや `Ifeffit Mailing List <http://cars9.uchicago.edu/mailman/listinfo/ifeffit/>`_ で真のパワーユーザのコメントを参照してください．`Ifeffit Mail Archive <http://www.mail-archive.com/ifeffit@millenia.cars.aps.anl.gov/>`__ ではメールアーカイブを検索することができます．場合によっては，著者による `Athena documentation 日本語訳 <http://www.moleng.kyoto-u.ac.jp/~moleng_04/asakura/ja/others/aug/index.html>`__ も役に立つかもしれません．
 3. 繰り返しますが，この文章は，XAFS の真のパワーユーザによって書かれたものではありません．これから紹介する解析手順が，周りの XAFS 経験者あるいはあなたの指導教員とはいくらか異なっている可能性は大いにあります．著者の知る限り，XAFS 解析において絶対的といえる解析手順はなく，また，往々にして恣意性が入ることは否定できません．この文章の文責は著者にありますが，内容を保証するものではありません．
 
-このチュートリアルは，分析手法の1つとして XAFS を利用し始めた人が一通りの解析を始められることを最大の目的としています．（著者の不勉強によるところもありますが，）数学的あるいは物理的な厳密さに欠ける表現もあります．
+このチュートリアルは，分析手法の1つとして XAFS を利用し始めた人が一通りの解析を始められることを最大の目的としています．（著者の不勉強のため，）数学的あるいは物理的な厳密さに欠ける表現もあります．
 
 内容に関する指摘を歓迎いたします．エキスパートから初心者の方まで，どんな些細なことでもかまいません．早急に反映いたします．お気づきの点がありましたら京都大学朝倉 asakura@moleng.kyoto-u.ac.jp までご連絡ください．
 
