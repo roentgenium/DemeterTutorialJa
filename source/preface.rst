@@ -1,8 +1,8 @@
 前書き
 ======
 
-この文章は何でないか
---------------------
+この文章は何ではないか [#]_
+---------------------------
 
 1. この文章は X 線吸収微細構造 (XAFS) の原理，理論等について説明するものではありません．
 2. この文章は，XAFS の真のパワーユーザによって書かれたものではありません．間違っている可能性を常に考慮し，少しでも疑問があれば，`Athena documentation <https://bruceravel.github.io/demeter/documents/Athena/index.html>`__  や `Artemis documentation <https://bruceravel.github.io/demeter/documents/Artemis/index.html>`__ といった本家のマニュアルや `Ifeffit Mailing List <http://cars9.uchicago.edu/mailman/listinfo/ifeffit/>`_ で真のパワーユーザのコメントを参照してください．`Ifeffit Mail Archive <http://www.mail-archive.com/ifeffit@millenia.cars.aps.anl.gov/>`__ ではメールアーカイブを検索することができます．場合によっては，著者による `Athena documentation 日本語訳 <http://www.moleng.kyoto-u.ac.jp/~moleng_04/asakura/ja/others/aug/index.html>`__ も役に立つかもしれません．
@@ -47,3 +47,5 @@ Ifeffit という言葉で示される1つ目のものは "Interactive feffit" �
 ----------------------------
 
 :download:`170918_sample.zip <_static/170918_sample.zip>`
+
+.. [#] `Wikipedia:ウィキペディアは何ではないか <https://ja.wikipedia.org/wiki/Wikipedia:%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%9A%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AF%E4%BD%95%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%E3%81%8B>`_
