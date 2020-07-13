@@ -15,11 +15,3 @@ Welcome to Demeter Tutorial in Japanese's documentation!
    artemis
    tips
    todo
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
