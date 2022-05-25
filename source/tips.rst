@@ -11,5 +11,5 @@ FAQ
    Athena 上で EXAFS に関係するパラメータが変更できない．
 
 回答
-   `データ型 <http://www.moleng.kyoto-u.ac.jp/~moleng_04/asakura/ja/others/aug/import/columns.html#data-types-and-energy-units>`_ が :math:`\mu(E)` でないためです．該当データを右クリックして，Data type を変更してください．
+   `データ型 <https://www.apch.kindai.ac.jp/laboratory/asakura/ja/others/aug/import/columns.html#data-types-and-energy-units>`_ が :math:`\mu(E)` でないためです．該当データを右クリックして，Data type を変更してください．
 

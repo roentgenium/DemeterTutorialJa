@@ -17,14 +17,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Unofficial Manual for BL01B1'
-copyright = '2020, ASAKURA, Hiroyuki'
+project = 'Demeter Tutorial in Japanese'
+copyright = '2022, ASAKURA, Hiroyuki'
 author = 'ASAKURA, Hiroyuki'
 
 # The short X.Y version
-version = '0.1'
+version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = '1.0'
 
 
 # -- General configuration ------------------------------------------------

@@ -7,7 +7,7 @@ Welcome to Demeter Tutorial in Japanese's documentation!
 ========================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
    
    preface
