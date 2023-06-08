@@ -1,9 +1,9 @@
 Demeter Tutorial in Japanese
 ============================
 
-XAFS ‰ðÍƒ\ƒtƒgƒEƒFƒA `Demeter <https://github.com/bruceravel/demeter>`_ ‚Ì“ú–{Œêƒ`ƒ…[ƒgƒŠƒAƒ‹‚Å‚·D
+XAFS è§£æžã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ `Demeter <https://github.com/bruceravel/demeter>`_ ã®æ—¥æœ¬èªžãƒãƒ¥ãƒ¼ãƒˆãƒªã‚¢ãƒ«ã§ã™ï¼Ž
 
-Python »•¶‘ì¬ƒc[ƒ‹ `Sphinx <https://www.sphinx-doc.org/>`_ ‚Åì‚ç‚ê‚Ä‚¢‚Ü‚·D
+Python è£½æ–‡æ›¸ä½œæˆãƒ„ãƒ¼ãƒ« `Sphinx <https://www.sphinx-doc.org/>`_ ã§ä½œã‚‰ã‚Œã¦ã„ã¾ã™ï¼Ž
 
-C³‚ðŠ½Œ}‚¢‚½‚µ‚Ü‚·‚Ì‚ÅCIssues “™‚Å‚²˜A—‚­‚¾‚³‚¢D
+ä¿®æ­£ã‚’æ­“è¿Žã„ãŸã—ã¾ã™ã®ã§ï¼ŒIssues ç­‰ã§ã”é€£çµ¡ãã ã•ã„ï¼Ž
 
