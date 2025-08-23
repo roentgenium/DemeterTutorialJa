@@ -46,6 +46,6 @@ Ifeffit という言葉で示される1つ目のものは "Interactive feffit" �
 チュートリアルで使うファイル
 ----------------------------
 
-:download:`170918_sample.zip <_static/170918_sample.zip>`
+:download:`20250824_sample.zip <_static/20250824_sample.zip>`
 
 .. [#] `Wikipedia:ウィキペディアは何ではないか <https://ja.wikipedia.org/wiki/Wikipedia:%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%9A%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AF%E4%BD%95%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%E3%81%8B>`_

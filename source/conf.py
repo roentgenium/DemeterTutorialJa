@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Demeter Tutorial in Japanese'
-copyright = '2023, ASAKURA, Hiroyuki'
+copyright = '2025, ASAKURA, Hiroyuki'
 author = 'ASAKURA, Hiroyuki'
 release = '1.0'
 
