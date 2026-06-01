@@ -1,0 +1,11 @@
+[project]
+name = "demetertutorialja"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "furo>=2025.7.19",
+    "sphinx-autobuild>=2024.10.3",
+    "sphinx-markdown-builder>=0.6.10",
+]
